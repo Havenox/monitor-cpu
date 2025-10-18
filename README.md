@@ -7,7 +7,7 @@ Script Bash para monitorar a temperatura da CPU, limitar processos que causam su
 # Por que criei este projeto
 
 Criei este projeto porque eu precisava **monitorar e resolver problemas de temperatura** que estavam ocorrendo no meu **home server / homelab**, montado para estudos, desenvolvimento e projetos pessoais.  
-Eu uso um **notebook antigo** como servidor caseiro rodando **Ubuntu Server**, e durante alguns testes de aplicações (como servidores de jogos, automações e containers), percebi que o processador aquecia demais — chegando próximo dos limites de segurança.
+Eu uso um **notebook antigo** como servidor caseiro rodando **Ubuntu Server**, e durante alguns testes de aplicações (como servidores de jogos, automações e containers), percebi que o processador aquecia demais chegando próximo dos limites de segurança.
 
 Como o sistema não tinha controle térmico automatizado (e ferramentas gráficas não são práticas em ambiente servidor), decidi desenvolver uma **solução leve, em shell script**, capaz de:
 - Detectar aumento de temperatura via `lm-sensors`;
