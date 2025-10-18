@@ -1,0 +1,11 @@
+[Unit]
+Description=Monitoramento de Temperatura da CPU
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/monitor_cpu.sh
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
